@@ -2,14 +2,19 @@ package main
 
 import (
 	"encoding/json"
+	"flag"
 	"fmt"
 	"io/ioutil"
 	"strings"
 )
 
 func main() {
+	jsonFilePtr := flag.String("file", "", "A json file")
+
+	flag.Parse()
+
 	jsonMap := make(map[string]interface{})
-	raw, err := ioutil.ReadFile("test2.json")
+	raw, err := ioutil.ReadFile(*jsonFilePtr)
 	if err != nil {
 		return
 	}
