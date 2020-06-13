@@ -1,0 +1,20 @@
+{
+    "data": [
+        {
+            "id": "26007494656",
+            "user_id": "23161357",
+            "user_name": "LIRIK",
+            "game_id": "417752",
+            "type": null,
+            "title": "Hey Guys, It's Monday - Twitter: @Lirik",
+            "viewer_count": 32575,
+            "started_at": "2017-08-14T16:08:32Z",
+            "language": "en",
+            "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_lirik-{width}x{height}.jpg",
+            "juice": 1001.1111
+        }
+    ],
+    "pagination": {
+      "cursor": "eyJiIjpudWxsLCJhIjp7Ik9mZnNldCI6MjB9fQ=="
+    }
+}
